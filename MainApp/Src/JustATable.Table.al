@@ -1,4 +1,4 @@
-table 50100 JustATable
+table 50100 "JustATable"
 {
 
     fields
@@ -13,6 +13,28 @@ table 50100 JustATable
             Clustered = true;
         }
     }
+
+    local procedure LocalProc()
+    begin
+
+    end;
+
+    procedure GlobalProc()
+    begin
+
+    end;
+
+    protected procedure ProtectedProc()
+    begin
+
+    end;
+
+    internal procedure InternalProc()
+    begin
+
+    end;
+
+
 
     protected var
         ProtectedVar: Integer;

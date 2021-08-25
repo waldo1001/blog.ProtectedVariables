@@ -20,5 +20,12 @@
   ],
   "contextSensitiveHelpUrl": "https://MainApp.com/help/",
   "showMyCode": true,
-  "runtime": "7.0"
+  "runtime": "7.0",
+  "internalsVisibleTo": [
+    {
+      "id": "b4e68a89-ff84-4d1e-bd75-af0114c5435f",
+      "name": "DepApp",
+      "publisher": "waldo"
+    }
+  ]
 }

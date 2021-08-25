@@ -1,4 +1,4 @@
-report 50100 JustAReport
+report 50100 "JustAReport"
 {
     UsageCategory = Administration;
     ApplicationArea = All;

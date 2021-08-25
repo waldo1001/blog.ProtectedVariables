@@ -1,4 +1,4 @@
-page 50100 JustAPage
+page 50100 "JustAPage"
 {
     PageType = Card;
     ApplicationArea = All;
