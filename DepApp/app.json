@@ -1,0 +1,31 @@
+{
+  "id": "b4e68a89-ff84-4d1e-bd75-af0114c5435f",
+  "name": "DepApp",
+  "publisher": "waldo",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "8b3f872e-1455-4c0d-ac44-e6acbe727dd9",
+      "name": "MainApp",
+      "publisher": "waldo",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://DepApp.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
