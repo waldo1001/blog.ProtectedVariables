@@ -4,7 +4,7 @@ codeunit 50101 "JustAnotherCodeunit"
     local procedure MyProcedure(sender: Codeunit JustACodeunit; NormalVar: Integer; ProtectedVar: Integer)
     begin
         sender.GlobalProc();
-        sender.ProtectedProc();
+        sender.ProtectedProc(); //Compile Error (inaccessible due to its protection level)
     end;
 
     local procedure TestProcAccess()
@@ -12,6 +12,6 @@ codeunit 50101 "JustAnotherCodeunit"
         JustACodeunit: Codeunit JustACodeunit;
     begin
         JustACodeunit.GlobalProc();
-        JustACodeunit.ProtectedProc();
+        JustACodeunit.ProtectedProc();  //Compile Error (inaccessible due to its protection level)
     end;
 }
